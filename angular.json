@@ -68,7 +68,8 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "assignment1:build:production"
+              "browserTarget": "assignment1:build:production",
+              "publicHost":"http://localhost:4200"
             },
             "development": {
               "browserTarget": "assignment1:build:development"
@@ -79,7 +80,8 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "assignment1:build"
+            "browserTarget": "assignment1:build",
+            
           }
         },
         "test": {
