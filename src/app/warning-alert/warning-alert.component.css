@@ -1,4 +1,6 @@
-h2 {
-    font-style: oblique;
-    color: red;
+p {
+    font-style: italic;
+       padding: '30px';
+    border-color:maroon;
+    background-color: red;
   }

@@ -1,6 +1,6 @@
 h3 {
     font-style: italic;
-    color: green;
-    
+    border-color: green;
+    background-color: greenyellow
   }
   html {   background-color: blue; } 
